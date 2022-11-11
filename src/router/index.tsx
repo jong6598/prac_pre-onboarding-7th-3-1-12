@@ -15,6 +15,7 @@ const routes = [
 	},
 ] as const;
 
+
 const Router = () => {
 	return (
 		<Routes>
