@@ -46,5 +46,5 @@ export const TextWrapper = styled.span`
 
 export const HightLightText = styled.strong`
 	font-weight: ${({ theme }) => theme.fontWeights.bold};
-	color: ${({ theme }) => theme.colors.primary};
+	color: ${({ theme }) => theme.colors.blue};
 `;

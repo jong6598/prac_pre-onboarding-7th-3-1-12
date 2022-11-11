@@ -16,7 +16,7 @@ export const SearchContainer = styled.div`
 		border: 0;
 		border-radius: 100%;
 		color: white;
-		background-color: ${({ theme }) => theme.colors.grey};
+		background-color: ${({ theme }) => theme.colors.gray};
 	}
 
 	button {
@@ -26,7 +26,7 @@ export const SearchContainer = styled.div`
 		right: 10px;
 		border: 0;
 		border-radius: 100%;
-		background-color: ${({ theme }) => theme.colors.blue};
+		background-color: ${({ theme }) => theme.colors.primary};
 
 		svg {
 			width: 21px;

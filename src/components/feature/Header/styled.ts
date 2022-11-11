@@ -10,7 +10,6 @@ export const Header = styled.header`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	max-width: ${({ theme }) => theme.maxWidth};
 	height: 56px;
 	margin: 0 auto;
 	padding: 0 20px;
@@ -30,6 +29,6 @@ export const LinkLogo = styled(Link)`
 	.logo-title {
 		font-size: 1.25rem;
 		font-weight: ${({ theme }) => theme.fontWeights.bold};
-		color: ${({ theme }) => theme.colors.primary};
+		color: ${({ theme }) => theme.colors.blue};
 	}
 `;
